@@ -14,7 +14,7 @@ class RecipeView extends View {
       const btn = e.target.closest('.btn--tiny');
       if (!btn) return;
       btn.dataset.serveto;
-      console.log(btn.dataset.serveto);
+      // console.log(btn.dataset.serveto);
 
       handler(+btn.dataset.serveto);
     });

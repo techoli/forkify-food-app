@@ -10,9 +10,6 @@ import bookmarkView from './views/bookmarkView';
 import addrecipeView from './views/addrecipeView';
 import { TIMER_SEC_DELAY } from './config';
 
-// const recipeContainer = document.querySelector('.recipe');
-// const pagin = document.querySelector('.pagination');
-
 const timeout = function (s) {
   return new Promise(function (_, reject) {
     setTimeout(function () {
@@ -20,10 +17,6 @@ const timeout = function (s) {
     }, s * 1000);
   });
 };
-
-// https://forkify-api.herokuapp.com/v2
-
-///////////////////////////////////////
 
 const controlRecipe = async function () {
   try {
@@ -146,8 +139,6 @@ const init = function () {
 };
 
 init();
-console.log('www555');
-console.log('w');
 
 // window.addEventListener('hashchange', controlRecipe);
 // window.addEventListener('load', controlRecipe);
