@@ -9,7 +9,7 @@ import paginationView from './views/paginationView';
 import bookmarkView from './views/bookmarkView';
 import addrecipeView from './views/addrecipeView';
 import { TIMER_SEC_DELAY } from './config';
-
+console.log('a FOR THE MAIN');
 const timeout = function (s) {
   return new Promise(function (_, reject) {
     setTimeout(function () {
